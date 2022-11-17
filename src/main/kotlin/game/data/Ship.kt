@@ -1,4 +1,4 @@
-package game
+package game.data
 
 enum class Ship(size: Int) {
     B(5),
