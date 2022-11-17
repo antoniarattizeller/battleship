@@ -21,6 +21,7 @@ workspace.xml
 /js/js.translator/testData/out-min/
 /js/js.translator/testData/out-pir/
 .gradle/
+.idea/
 build/
 !**/src/**/build
 !**/test/**/build
@@ -36,5 +37,3 @@ outTmp/
 /test.output
 /kotlin-native/dist
 kotlin-ide/
-.gradle
-.idea
