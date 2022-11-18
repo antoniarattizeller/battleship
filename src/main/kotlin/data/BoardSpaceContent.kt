@@ -1,4 +1,4 @@
-package game.data
+package data
 
 sealed class BoardSpaceContent {
     object Empty : BoardSpaceContent()

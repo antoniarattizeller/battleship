@@ -1,4 +1,5 @@
-package game.gameplay
+package domains.gameplay
 
 class GamePlayController {
+
 }

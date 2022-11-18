@@ -1,11 +1,13 @@
-package game.board
+package domains.board
 
-import game.data.Board
-import game.data.BoardSpaceContent
+import data.Board
+import data.BoardSpaceContent
 
-
-class BoardService {
-    fun createBoard(size: Int): Board {
+interface BoardService{
+    fun createBoard(size: Int): Board
+}
+class BoardServiceImpl: BoardService {
+    override fun createBoard(size: Int): Board {
         return Board(matrix = createInitialMatrix(size))
     }
 

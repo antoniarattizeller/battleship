@@ -1,6 +1,6 @@
-package game.board
+package domains.board
 
-import game.data.Board
+import data.Board
 
 interface BoardRepository {
     fun getBoards(): List<Board>

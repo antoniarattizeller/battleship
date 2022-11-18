@@ -1,4 +1,4 @@
-package game.setup
+package domains.setup
 
 interface SetupRepository {
 }

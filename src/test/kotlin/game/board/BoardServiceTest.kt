@@ -1,6 +1,7 @@
 package game.board
 
-import game.data.Board
+import domains.board.BoardServiceImpl
+import data.Board
 import org.junit.jupiter.api.*
 
 import org.junit.jupiter.api.Assertions.*
@@ -17,7 +18,7 @@ internal class BoardServiceTest {
         private val boardSize = 10
         @BeforeEach
         fun whenBoardSizeIsChosen() {
-            board = BoardService().createBoard(10)
+            board = BoardServiceImpl().createBoard(10)
         }
 
         @Test
